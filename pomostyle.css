@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif; /* Added sans-serif for fallback */
+}
+
+body {
+    background: linear-gradient(135deg, #d8738e, #85a9ca, #af4be9); /* Three pastel shades */
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Container for Timer */
+.container {
+    background: rgba(255, 255, 255, 0.245); /* Translucent white background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 320px;
+}
+
+/* Timer Text */
+.timer {
+    font-size: 4em; /* Increased font size */
+    margin: 10px 0 5px;
+    font-weight: bold; 
+    color: #333; /* Dark gray color for better readability */
+}
+
+/* Title */
+.title {
+    font-size: 1.8em; 
+    margin-bottom: 10px;
+    color: #031620; 
+    font-weight: 600;
+
+}
+/*Quote Style*/
+.quote {
+    font-size: 1.0em;
+    font-style: italic;
+    color: #272626;
+    margin: 5px 0 15px;
+}
+
+/* Button Styles */
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/* Buttons - Base Style */
+button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 35px;
+    font-size: 1em;
+    color: rgb(41, 39, 39);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Individual Button Colors */
+#startButton {
+    background-color: #8fd694;
+}
+
+#stopButton {
+    background-color: #f39f9f;
+}
+
+#resetButton {
+    background-color: #87c2e4;
+}
+
+/* Hover Effects */
+#startButton:hover {
+    background-color: #7bc780;
+}
+
+#stopButton:hover {
+    background-color: #e68989;
+}
+
+#resetButton:hover {
+    background-color: #70b2d7;
+}
